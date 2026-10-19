@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scooter</title>
+    <meta name="description" content="Scooter eléctrico en 3D: explora sus piezas, colores y modos de uso. Hecho con Three.js." />
+    <meta name="theme-color" content="#3a4650" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Scooter" />
+    <meta property="og:description" content="Scooter eléctrico en 3D: explora sus piezas, colores y modos de uso." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Start the 3D model download right away, in parallel with the JS. -->
+    <link rel="preload" href="/models/scooter.glb" as="fetch" type="model/gltf-binary" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
