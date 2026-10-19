@@ -1,8 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" rx="14" fill="#3a4650"/>
-  <g stroke="#e8834f" stroke-width="7" stroke-linecap="round">
-    <path d="M32 14v36"/>
-    <path d="M16.4 23l31.2 18"/>
-    <path d="M16.4 41l31.2-18"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- stem + handlebar -->
+    <path d="M16 46 25 11" stroke="#e8834f" stroke-width="6"/>
+    <path d="M18 11h14" stroke="#e8834f" stroke-width="6"/>
+    <!-- deck -->
+    <path d="M20 46h26" stroke="#e8834f" stroke-width="6"/>
+    <!-- wheels -->
+    <circle cx="15" cy="47" r="7.5" fill="#3a4650" stroke="#fff" stroke-width="4.5"/>
+    <circle cx="49" cy="47" r="7.5" fill="#3a4650" stroke="#fff" stroke-width="4.5"/>
   </g>
 </svg>
