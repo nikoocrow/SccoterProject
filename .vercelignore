@@ -1,0 +1,6 @@
+# Only the app source is needed; Vercel installs deps and builds remotely.
+*.zip
+source-assets/
+node_modules/
+dist/
+.env*
